@@ -42,12 +42,12 @@ for index, row in survey_mapping.iterrows():
         additional_responses = ['Don’t know', 'No answer', 'Other missing; Multiple answers Mail (EVS)']
         english_options.extend(additional_responses)
         
-        # Find the matching column in the survey data based on the question ID (assumed to be "Q" followed by the number)
+        # Find the matching column in the survey data based on the question ID
         column_name = f"{english_question_id}"
         
-        # Check if this column exists in the survey data and ensure relevant columns (gender, age, marital status, children) exist
-        if column_name in survey_data.columns and 'Q260' in survey_data.columns and 'Q262' in survey_data.columns and 'Q273' in survey_data.columns and 'Q274' in survey_data.columns:
-            # Step 6: Categorize the age column into groups (Up to 29, 30-49, 50 and more)
+        # Check if this column exists in the survey data and ensure relevant columns exist
+        if column_name in survey_data.columns and 'Q260' in survey_data.columns and 'Q262' in survey_data.columns and 'Q273' in survey_data.columns and 'Q274' in survey_data.columns and 'Q275' in survey_data.columns:
+            # Step 6: Categorize the age column into groups
             survey_data['Age Group'] = survey_data['Q262'].apply(categorize_age)
             
             # Step 7: Extract the overall percentages from the corresponding survey column
@@ -74,6 +74,15 @@ for index, row in survey_mapping.iterrows():
             three_children_responses = survey_data[survey_data['Q274'] == 3][column_name].value_counts(normalize=True) * 100
             four_or_more_children_responses = survey_data[survey_data['Q274'] >= 4][column_name].value_counts(normalize=True) * 100
             
+            no_education_responses = survey_data[survey_data['Q275'] == 0][column_name].value_counts(normalize=True) * 100
+            primary_education_responses = survey_data[survey_data['Q275'] == 1][column_name].value_counts(normalize=True) * 100
+            lower_secondary_responses = survey_data[survey_data['Q275'] == 2][column_name].value_counts(normalize=True) * 100
+            upper_secondary_responses = survey_data[survey_data['Q275'] == 3][column_name].value_counts(normalize=True) * 100
+            bachelor_education_responses = survey_data[survey_data['Q275'] == 6][column_name].value_counts(normalize=True) * 100
+            # Extract education level from Q275
+            # Map the education codes to labels
+            
+
             # Create a list to store the response options with overall and demographic-specific percentages
             for idx, option in enumerate(english_options, start=1):
                 # General percentage
@@ -100,7 +109,14 @@ for index, row in survey_mapping.iterrows():
                 three_children_percentage = three_children_responses.get(idx, 0)
                 four_or_more_children_percentage = four_or_more_children_responses.get(idx, 0)
                 
-                # Step 8: Append the data to the final output (one row per response option)
+                # Education level percentages
+                no_education_percentage = no_education_responses.get(idx, 0)
+                primary_education_percentage = primary_education_responses.get(idx, 0)
+                lower_secondary_percentage = lower_secondary_responses.get(idx, 0)
+                upper_secondary_percentage = upper_secondary_responses.get(idx, 0)
+                bachelor_percentage = bachelor_education_responses.get(idx, 0)
+
+                # Append the data to the final output (one row per response option)
                 final_output.append({
                     'Survey Question ID': english_question_id,
                     'Survey Question English Text': english_question_text,
@@ -118,7 +134,12 @@ for index, row in survey_mapping.iterrows():
                     '1 child': f"%{round(one_child_percentage, 2)}",
                     '2 children': f"%{round(two_children_percentage, 2)}",
                     '3 children': f"%{round(three_children_percentage, 2)}",
-                    '4 or more children': f"%{round(four_or_more_children_percentage, 2)}"
+                    '4 or more children': f"%{round(four_or_more_children_percentage, 2)}",
+                    'No education': f"%{round(no_education_percentage, 2)}",
+                    'Primary education': f"%{round(primary_education_percentage, 2)}",
+                    'Lower secondary': f"%{round(lower_secondary_percentage, 2)}",
+                    'Upper secondary': f"%{round(upper_secondary_percentage, 2)}",
+                    'Bachelor': f"%{round(bachelor_percentage, 2)}"
                 })
     
     except Exception as e:
@@ -127,6 +148,6 @@ for index, row in survey_mapping.iterrows():
 # Step 9: Convert the final output to a DataFrame and write to a new CSV file
 if final_output:
     final_df = pd.DataFrame(final_output)
-    final_df.to_csv('final_survey_results_with_gender_age_marital_children.csv', index=False)
+    final_df.to_csv('final_survey_results_with_education.csv', index=False)
 else:
     print("No valid data to output.")
