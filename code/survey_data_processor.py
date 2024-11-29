@@ -1,16 +1,12 @@
 import pandas as pd
 import ast  # For safely evaluating string representations of lists
 
-# Step 1: Load the survey mapping file
 survey_mapping = pd.read_csv('results/survey_question_mapping.csv')
 
-# Step 2: Load the survey data file
 survey_data = pd.read_csv('data/F00013167-WVS_Wave_7_Turkey_Csv_v5.0.csv', sep=';')
 
-# Step 3: Prepare an empty list for storing the final output rows
 final_output = []
 
-# Step 4: Define a function to categorize ages into groups
 def categorize_age(age):
     if age <= 29:
         return 'Up to 29'
@@ -19,7 +15,6 @@ def categorize_age(age):
     else:
         return '50 and more'
 
-# Step 5: Preprocess demographic data once outside the loop
 # Categorize the age column into groups
 survey_data['Age Group'] = survey_data['Q262'].apply(categorize_age)
 
@@ -77,7 +72,6 @@ social_class_map = {
 }
 survey_data['Social Class'] = survey_data['Q287'].map(social_class_map)
 
-# Step 6: Loop through each row in the survey mapping file
 for index, row in survey_mapping.iterrows():
     try:
         # Extract the English Question ID and the English Response Options
@@ -116,7 +110,6 @@ for index, row in survey_mapping.iterrows():
             elif english_question_id == 'Q287':
                 response_code_to_option = social_class_map
 
-            # Step 7: Extract the overall percentages from the corresponding survey column
             total_responses = survey_data[column_name].value_counts(normalize=True) * 100
 
             # Extract demographic-specific responses
@@ -275,9 +268,8 @@ for index, row in survey_mapping.iterrows():
     except Exception as e:
         print(f"Error processing row {index}: {e}")
 
-# Step 7: Convert the final output to a DataFrame and write to a new CSV file
 if final_output:
     final_df = pd.DataFrame(final_output)
-    final_df.to_csv('final_survey_results_with_social_class.csv', index=False)
+    final_df.to_csv('results/final_survey_results_without_persona.csv', index=False)
 else:
     print("No valid data to output.")

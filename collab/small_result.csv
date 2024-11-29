@@ -1,0 +1,2541 @@
+Prompt,Format,Reversed,Validated Response,Most Probable Response Option,Token Probabilities,Softmax Output
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Aileniz
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","3","Pek Önemli Değil","{'1': 0.04704214259982109, '2': 0.03233156353235245, '3': 0.7358629703521729, '4': 0.003201258135959506}","[0.057, 0.04, 0.899, 0.004]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Aileniz
+
+Cevap seçenekleri:
+1. Hiç Önemli Değil
+2. Pek Önemli Değil
+3. Biraz Önemli
+4. Çok Önemli
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","Pek Önemli Değil","{'1': 0.027839381247758865, '2': 0.6336213946342468, '3': 0.12476745247840881, '4': 0.002016677986830473}","[0.035, 0.804, 0.158, 0.003]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Aileniz
+
+Cevap seçenekleri:
+A. Çok Önemli
+B. Biraz Önemli
+C. Pek Önemli Değil
+D. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","C","Pek Önemli Değil","{'A': 0.022387053817510605, 'B': 0.03691001236438751, 'C': 0.840067982673645, 'D': 0.004408271983265877}","[0.025, 0.041, 0.93, 0.005]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Aileniz
+
+Cevap seçenekleri:
+A. Hiç Önemli Değil
+B. Pek Önemli Değil
+C. Biraz Önemli
+D. Çok Önemli
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","Pek Önemli Değil","{'A': 0.031586695462465286, 'B': 0.8146316409111023, 'C': 0.014920499175786972, 'D': 0.010916070081293583}","[0.036, 0.934, 0.017, 0.013]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Dost ve arkadaşlarınız
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","3","Pek Önemli Değil","{'1': 0.0242338627576828, '2': 0.09003971517086029, '3': 0.6653085350990295, '4': 0.0037163831293582916}","[0.031, 0.115, 0.849, 0.005]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Dost ve arkadaşlarınız
+
+Cevap seçenekleri:
+1. Hiç Önemli Değil
+2. Pek Önemli Değil
+3. Biraz Önemli
+4. Çok Önemli
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","Pek Önemli Değil","{'1': 0.0732235535979271, '2': 0.6130933165550232, '3': 0.09402091056108475, '4': 0.0025055722799152136}","[0.094, 0.783, 0.12, 0.003]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Dost ve arkadaşlarınız
+
+Cevap seçenekleri:
+A. Çok Önemli
+B. Biraz Önemli
+C. Pek Önemli Değil
+D. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","C","Pek Önemli Değil","{'A': 0.009227247908711433, 'B': 0.3055644929409027, 'C': 0.5708696246147156, 'D': 0.006341788452118635}","[0.01, 0.343, 0.64, 0.007]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Dost ve arkadaşlarınız
+
+Cevap seçenekleri:
+A. Hiç Önemli Değil
+B. Pek Önemli Değil
+C. Biraz Önemli
+D. Çok Önemli
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","Pek Önemli Değil","{'A': 0.08056778460741043, 'B': 0.7644058465957642, 'C': 0.013152328319847584, 'D': 0.013152328319847584}","[0.092, 0.877, 0.015, 0.015]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Kendiniz için ayırdığınız boş zaman
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","3","Pek Önemli Değil","{'1': 0.010018016211688519, '2': 0.0212081391364336, '3': 0.7958295941352844, '4': 0.0009919179137796164}","[0.012, 0.026, 0.961, 0.001]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Kendiniz için ayırdığınız boş zaman
+
+Cevap seçenekleri:
+1. Hiç Önemli Değil
+2. Pek Önemli Değil
+3. Biraz Önemli
+4. Çok Önemli
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","Pek Önemli Değil","{'1': 0.03160209581255913, '2': 0.6347450613975525, '3': 0.1103021502494812, '4': 0.000954300572630018}","[0.041, 0.816, 0.142, 0.001]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Kendiniz için ayırdığınız boş zaman
+
+Cevap seçenekleri:
+A. Çok Önemli
+B. Biraz Önemli
+C. Pek Önemli Değil
+D. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","C","Pek Önemli Değil","{'A': 0.0024413138162344694, 'B': 0.038188572973012924, 'C': 0.8691679239273071, 'D': 0.0027663710061460733}","[0.003, 0.042, 0.952, 0.003]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Kendiniz için ayırdığınız boş zaman
+
+Cevap seçenekleri:
+A. Hiç Önemli Değil
+B. Pek Önemli Değil
+C. Biraz Önemli
+D. Çok Önemli
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","Pek Önemli Değil","{'A': 0.15304431319236755, 'B': 0.6858969926834106, 'C': 0.010414795018732548, 'D': 0.014235337264835835}","[0.177, 0.794, 0.012, 0.016]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Siyaset
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","3","Pek Önemli Değil","{'1': 0.01406719721853733, '2': 0.013214909471571445, '3': 0.8175774812698364, '4': 0.002296406775712967}","[0.017, 0.016, 0.965, 0.003]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Siyaset
+
+Cevap seçenekleri:
+1. Hiç Önemli Değil
+2. Pek Önemli Değil
+3. Biraz Önemli
+4. Çok Önemli
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","Pek Önemli Değil","{'1': 0.14688266813755035, '2': 0.6582823991775513, '3': 0.022525183856487274, '4': 0.0006389903137460351}","[0.177, 0.795, 0.027, 0.001]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Siyaset
+
+Cevap seçenekleri:
+A. Çok Önemli
+B. Biraz Önemli
+C. Pek Önemli Değil
+D. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","C","Pek Önemli Değil","{'A': 0.0020263073965907097, 'B': 0.009666972793638706, 'C': 0.9263157248497009, 'D': 0.004860858898609877}","[0.002, 0.01, 0.982, 0.005]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Siyaset
+
+Cevap seçenekleri:
+A. Hiç Önemli Değil
+B. Pek Önemli Değil
+C. Biraz Önemli
+D. Çok Önemli
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","Pek Önemli Değil","{'A': 0.2876242399215698, 'B': 0.6089005470275879, 'C': 0.0026489277370274067, 'D': 0.007664926815778017}","[0.317, 0.671, 0.003, 0.008]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? İş ve çalışma
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","3","Pek Önemli Değil","{'1': 0.025861606001853943, '2': 0.0547490268945694, '3': 0.7557869553565979, '4': 0.0015531101962551475}","[0.031, 0.065, 0.902, 0.002]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? İş ve çalışma
+
+Cevap seçenekleri:
+1. Hiç Önemli Değil
+2. Pek Önemli Değil
+3. Biraz Önemli
+4. Çok Önemli
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","Pek Önemli Değil","{'1': 0.02928270399570465, '2': 0.5881588459014893, '3': 0.216371551156044, '4': 0.004780270159244537}","[0.035, 0.701, 0.258, 0.006]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? İş ve çalışma
+
+Cevap seçenekleri:
+A. Çok Önemli
+B. Biraz Önemli
+C. Pek Önemli Değil
+D. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","C","Pek Önemli Değil","{'A': 0.0056852009147405624, 'B': 0.20041026175022125, 'C': 0.6995005011558533, 'D': 0.007770748343318701}","[0.006, 0.219, 0.766, 0.009]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? İş ve çalışma
+
+Cevap seçenekleri:
+A. Hiç Önemli Değil
+B. Pek Önemli Değil
+C. Biraz Önemli
+D. Çok Önemli
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","Pek Önemli Değil","{'A': 0.02223876677453518, 'B': 0.8345035910606384, 'C': 0.015284466557204723, 'D': 0.019625643268227577}","[0.025, 0.936, 0.017, 0.022]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Din
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","3","Pek Önemli Değil","{'1': 0.011957768350839615, '2': 0.009312720037996769, '3': 0.838304340839386, '4': 0.0018337833462283015}","[0.014, 0.011, 0.973, 0.002]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Din
+
+Cevap seçenekleri:
+1. Hiç Önemli Değil
+2. Pek Önemli Değil
+3. Biraz Önemli
+4. Çok Önemli
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","Pek Önemli Değil","{'1': 0.2349332869052887, '2': 0.5635756850242615, '3': 0.03179476410150528, '4': 0.001158124185167253}","[0.283, 0.678, 0.038, 0.001]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Din
+
+Cevap seçenekleri:
+A. Çok Önemli
+B. Biraz Önemli
+C. Pek Önemli Değil
+D. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","C","Pek Önemli Değil","{'A': 0.002006127964705229, 'B': 0.014823392033576965, 'C': 0.9170907735824585, 'D': 0.004520879127085209}","[0.002, 0.016, 0.977, 0.005]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Din
+
+Cevap seçenekleri:
+A. Hiç Önemli Değil
+B. Pek Önemli Değil
+C. Biraz Önemli
+D. Çok Önemli
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","Pek Önemli Değil","{'A': 0.21613748371601105, 'B': 0.6657503247261047, 'C': 0.004485790617763996, 'D': 0.01381720695644617}","[0.24, 0.74, 0.005, 0.015]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Terbiye
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","Belirtildi","{'1': 0.33777645230293274, '2': 0.1807987093925476}","[0.651, 0.349]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Terbiye
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.5506263971328735, '2': 0.1228613629937172}","[0.818, 0.182]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Terbiye
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","(Yanıt bulunamadı)","Belirtilmedi","{'A': 0.07624427229166031, 'B': 0.16140912473201752}","[0.321, 0.679]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Terbiye
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.6855543255805969, 'B': 0.030121155083179474}","[0.958, 0.042]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bağımsızlık
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","Belirtildi","{'1': 0.454270601272583, '2': 0.18936815857887268}","[0.706, 0.294]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bağımsızlık
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.6925892233848572, '2': 0.07299836724996567}","[0.905, 0.095]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bağımsızlık
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","B","Belirtilmedi","{'A': 0.11133276671171188, 'B': 0.4403296411037445}","[0.202, 0.798]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bağımsızlık
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.7600256204605103, 'B': 0.022950785234570503}","[0.971, 0.029]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Çalışkanlık
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","Belirtildi","{'1': 0.46579709649086, '2': 0.22002696990966797}","[0.679, 0.321]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Çalışkanlık
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.6446501016616821, '2': 0.11202339082956314}","[0.852, 0.148]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Çalışkanlık
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","B","Belirtilmedi","{'A': 0.04613485187292099, 'B': 0.6368719339370728}","[0.068, 0.932]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Çalışkanlık
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.7744839191436768, 'B': 0.020639296621084213}","[0.974, 0.026]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sorumluluk duygusu
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","Belirtildi","{'1': 0.4476873576641083, '2': 0.16469497978687286}","[0.731, 0.269]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sorumluluk duygusu
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.5861529111862183, '2': 0.1307884007692337}","[0.818, 0.182]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sorumluluk duygusu
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","B","Belirtilmedi","{'A': 0.16438817977905273, 'B': 0.34800979495048523}","[0.321, 0.679]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sorumluluk duygusu
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.6900827884674072, 'B': 0.04998943209648132}","[0.932, 0.068]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Hayalgücü
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","Belirtildi","{'1': 0.40088698267936707, '2': 0.18936559557914734}","[0.679, 0.321]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Hayalgücü
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.5497684478759766, '2': 0.1390032321214676}","[0.798, 0.202]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Hayalgücü
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","(Yanıt bulunamadı)","Belirtilmedi","{'A': 0.07774452865123749, 'B': 0.2713550627231598}","[0.223, 0.777]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Hayalgücü
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.6701039671897888, 'B': 0.02944231405854225}","[0.958, 0.042]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Başka insanlara karşı saygı ve hoşgörü
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","Belirtildi","{'1': 0.648137629032135, '2': 0.12762586772441864}","[0.835, 0.165]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Başka insanlara karşı saygı ve hoşgörü
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","Belirtildi","{'1': 0.26049211621284485, '2': 0.4866633415222168}","[0.349, 0.651]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Başka insanlara karşı saygı ve hoşgörü
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","Belirtildi","{'A': 0.40188875794410706, 'B': 0.40188875794410706}","[0.5, 0.5]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Başka insanlara karşı saygı ve hoşgörü
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.4937964975833893, 'B': 0.38456910848617554}","[0.562, 0.438]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Tutumluluk, para ve malına özen
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","Belirtildi","{'1': 0.4338275194168091, '2': 0.2981650233268738}","[0.593, 0.407]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Tutumluluk, para ve malına özen
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.6253024935722351, '2': 0.13952384889125824}","[0.818, 0.182]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Tutumluluk, para ve malına özen
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","B","Belirtilmedi","{'A': 0.058603961020708084, 'B': 0.6300519108772278}","[0.085, 0.915]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Tutumluluk, para ve malına özen
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.7123042941093445, 'B': 0.035463541746139526}","[0.953, 0.047]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sebat, azim, kararlılık
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","2","Belirtilmedi","{'1': 0.13337469100952148, '2': 0.6773325800895691}","[0.165, 0.835]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sebat, azim, kararlılık
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.5783830881118774, '2': 0.21277524530887604}","[0.731, 0.269]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sebat, azim, kararlılık
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","B","Belirtilmedi","{'A': 0.027660904452204704, 'B': 0.8083701133728027}","[0.033, 0.967]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sebat, azim, kararlılık
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.8039345741271973, 'B': 0.051393814384937286}","[0.94, 0.06]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Dindarlık
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","2","Belirtilmedi","{'1': 0.281646192073822, '2': 0.40979278087615967}","[0.407, 0.593]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Dindarlık
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.7693777084350586, '2': 0.03380409628152847}","[0.958, 0.042]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Dindarlık
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","B","Belirtilmedi","{'A': 0.04001099243760109, 'B': 0.6258772611618042}","[0.06, 0.94]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Dindarlık
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.8482366800308228, 'B': 0.008315819315612316}","[0.99, 0.01]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bencil olmamak
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","Belirtildi","{'1': 0.3515150845050812, '2': 0.24159255623817444}","[0.593, 0.407]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bencil olmamak
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.4333082139492035, '2': 0.23193317651748657}","[0.651, 0.349]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bencil olmamak
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","(Yanıt bulunamadı)","Belirtilmedi","{'A': 0.07373259216547012, 'B': 0.2916180491447449}","[0.202, 0.798]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bencil olmamak
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.629894495010376, 'B': 0.04562940448522568}","[0.932, 0.068]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Söz dinleme ve itaat
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","Belirtildi","{'1': 0.5153570175170898, '2': 0.21483276784420013}","[0.706, 0.294]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Söz dinleme ve itaat
+
+Cevap seçenekleri:
+1. Belirtilmedi
+2. Belirtildi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Belirtilmedi","{'1': 0.577525794506073, '2': 0.1874951720237732}","[0.755, 0.245]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Söz dinleme ve itaat
+
+Cevap seçenekleri:
+A. Belirtildi
+B. Belirtilmedi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","B","Belirtilmedi","{'A': 0.10398422181606293, 'B': 0.5983878970146179}","[0.148, 0.852]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Söz dinleme ve itaat
+
+Cevap seçenekleri:
+A. Belirtilmedi
+B. Belirtildi
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Belirtilmedi","{'A': 0.8006637096405029, 'B': 0.03517870977520943}","[0.958, 0.042]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Uyuşturucu madde kullananlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","İstemem","{'1': 0.9436997175216675, '2': 0.002490062965080142}","[0.997, 0.003]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Uyuşturucu madde kullananlar
+
+Cevap seçenekleri:
+1. Olabilir
+2. İstemem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","İstemem","{'1': 0.0005616099806502461, '2': 0.9538938403129578}","[0.001, 0.999]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Uyuşturucu madde kullananlar
+
+Cevap seçenekleri:
+A. İstemem
+B. Olabilir
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","İstemem","{'A': 0.9650377631187439, 'B': 0.0002856943174265325}","[1.0, 0.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Uyuşturucu madde kullananlar
+
+Cevap seçenekleri:
+A. Olabilir
+B. İstemem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","İstemem","{'A': 0.0004212073399685323, 'B': 0.9778633713722229}","[0.0, 1.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir ırk veya renkten insanlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","İstemem","{'1': 0.8272567987442017, '2': 0.016128938645124435}","[0.981, 0.019]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir ırk veya renkten insanlar
+
+Cevap seçenekleri:
+1. Olabilir
+2. İstemem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","İstemem","{'1': 0.0008469042950309813, '2': 0.928743302822113}","[0.001, 0.999]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir ırk veya renkten insanlar
+
+Cevap seçenekleri:
+A. İstemem
+B. Olabilir
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","İstemem","{'A': 0.9048976898193359, 'B': 0.009443455375730991}","[0.99, 0.01]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir ırk veya renkten insanlar
+
+Cevap seçenekleri:
+A. Olabilir
+B. İstemem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","İstemem","{'A': 0.0010491939028725028, 'B': 0.9538650512695312}","[0.001, 0.999]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. AIDS hastalığı olanlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","İstemem","{'1': 0.9597041606903076, '2': 0.00286946352571249}","[0.997, 0.003]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. AIDS hastalığı olanlar
+
+Cevap seçenekleri:
+1. Olabilir
+2. İstemem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","İstemem","{'1': 0.0003690027806442231, '2': 0.9707304835319519}","[0.0, 1.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. AIDS hastalığı olanlar
+
+Cevap seçenekleri:
+A. İstemem
+B. Olabilir
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","İstemem","{'A': 0.9602587223052979, 'B': 0.0005653573316521943}","[0.999, 0.001]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. AIDS hastalığı olanlar
+
+Cevap seçenekleri:
+A. Olabilir
+B. İstemem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","İstemem","{'A': 0.0005057292873971164, 'B': 0.9733524918556213}","[0.001, 0.999]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Göçmenler, başka ülkelerden gelen işçiler
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","İstemem","{'1': 0.9060198664665222, '2': 0.014644446782767773}","[0.984, 0.016]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Göçmenler, başka ülkelerden gelen işçiler
+
+Cevap seçenekleri:
+1. Olabilir
+2. İstemem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","İstemem","{'1': 0.0004630230541806668, '2': 0.9486325979232788}","[0.0, 1.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Göçmenler, başka ülkelerden gelen işçiler
+
+Cevap seçenekleri:
+A. İstemem
+B. Olabilir
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","İstemem","{'A': 0.9520565271377563, 'B': 0.002846597461029887}","[0.997, 0.003]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Göçmenler, başka ülkelerden gelen işçiler
+
+Cevap seçenekleri:
+A. Olabilir
+B. İstemem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","İstemem","{'A': 0.0003946559445466846, 'B': 0.9753136038780212}","[0.0, 1.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Eşcinseller (homoseksüeller)
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","İstemem","{'1': 0.9330564141273499, '2': 0.002789788180962205}","[0.997, 0.003]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Eşcinseller (homoseksüeller)
+
+Cevap seçenekleri:
+1. Olabilir
+2. İstemem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","İstemem","{'1': 0.0003219956415705383, '2': 0.9598554968833923}","[0.0, 1.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Eşcinseller (homoseksüeller)
+
+Cevap seçenekleri:
+A. İstemem
+B. Olabilir
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","İstemem","{'A': 0.9510514736175537, 'B': 0.0005260116886347532}","[0.999, 0.001]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Eşcinseller (homoseksüeller)
+
+Cevap seçenekleri:
+A. Olabilir
+B. İstemem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","İstemem","{'A': 0.00039528566412627697, 'B': 0.9768698215484619}","[0.0, 1.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir dinden olanlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","İstemem","{'1': 0.8877947330474854, '2': 0.013480450958013535}","[0.985, 0.015]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir dinden olanlar
+
+Cevap seçenekleri:
+1. Olabilir
+2. İstemem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","İstemem","{'1': 0.0006338221137411892, '2': 0.9500485062599182}","[0.001, 0.999]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir dinden olanlar
+
+Cevap seçenekleri:
+A. İstemem
+B. Olabilir
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","İstemem","{'A': 0.9465879201889038, 'B': 0.002346356865018606}","[0.998, 0.002]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir dinden olanlar
+
+Cevap seçenekleri:
+A. Olabilir
+B. İstemem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","İstemem","{'A': 0.0005052505293861032, 'B': 0.9724310040473938}","[0.001, 0.999]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Çok içki içenler
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","İstemem","{'1': 0.8888292908668518, '2': 0.008185834623873234}","[0.991, 0.009]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Çok içki içenler
+
+Cevap seçenekleri:
+1. Olabilir
+2. İstemem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","İstemem","{'1': 0.0005254650022834539, '2': 0.9500629901885986}","[0.001, 0.999]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Çok içki içenler
+
+Cevap seçenekleri:
+A. İstemem
+B. Olabilir
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","İstemem","{'A': 0.9525251388549805, 'B': 0.0011152921942993999}","[0.999, 0.001]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Çok içki içenler
+
+Cevap seçenekleri:
+A. Olabilir
+B. İstemem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","İstemem","{'A': 0.0004749048675876111, 'B': 0.9729757905006409}","[0.0, 1.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Nikâhsız bir arada yaşayan çiftler
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","İstemem","{'1': 0.8762130737304688, '2': 0.017083434388041496}","[0.981, 0.019]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Nikâhsız bir arada yaşayan çiftler
+
+Cevap seçenekleri:
+1. Olabilir
+2. İstemem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","İstemem","{'1': 0.00034105489612556994, '2': 0.955073356628418}","[0.0, 1.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Nikâhsız bir arada yaşayan çiftler
+
+Cevap seçenekleri:
+A. İstemem
+B. Olabilir
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","İstemem","{'A': 0.9451638460159302, 'B': 0.0030082494486123323}","[0.997, 0.003]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Nikâhsız bir arada yaşayan çiftler
+
+Cevap seçenekleri:
+A. Olabilir
+B. İstemem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","İstemem","{'A': 0.00037100756890140474, 'B': 0.9760044813156128}","[0.0, 1.0]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Sizinkinden farklı bir anadil konuşanlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","1","İstemem","{'1': 0.7614436149597168, '2': 0.01156191062182188}","[0.985, 0.015]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Sizinkinden farklı bir anadil konuşanlar
+
+Cevap seçenekleri:
+1. Olabilir
+2. İstemem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","2","İstemem","{'1': 0.001074373023584485, '2': 0.9175776839256287}","[0.001, 0.999]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Sizinkinden farklı bir anadil konuşanlar
+
+Cevap seçenekleri:
+A. İstemem
+B. Olabilir
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","A","İstemem","{'A': 0.8727710247039795, 'B': 0.005524392239749432}","[0.994, 0.006]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Sizinkinden farklı bir anadil konuşanlar
+
+Cevap seçenekleri:
+A. Olabilir
+B. İstemem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","B","İstemem","{'A': 0.0013370623346418142, 'B': 0.9466930031776428}","[0.001, 0.999]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size bazı görüşler okuyacağım. Bunların her biri hakkındaki fikrinizi “kesinlikle kabul ederim”, “kabul ederim”, “kabul etmem” veya “kesinlikle kabul etmem” şeklinde belirtiniz. Hayatta en önemli amaçlarımdan biri, anne ve babamın benimle gurur duymasıdır.
+
+Cevap seçenekleri:
+1. Kesin Kabul Ederim
+2. Kabul Ederim
+3. Kabul Etmem
+4. Kesin Kabul Etmem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","False","3","Kabul Etmem","{'1': 0.0036000024992972612, '2': 0.006725689861923456, '3': 0.8808915615081787, '4': 0.004342431668192148}","[0.004, 0.008, 0.984, 0.005]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir rakamla [sayı] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz rakamdan başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size bazı görüşler okuyacağım. Bunların her biri hakkındaki fikrinizi “kesinlikle kabul ederim”, “kabul ederim”, “kabul etmem” veya “kesinlikle kabul etmem” şeklinde belirtiniz. Hayatta en önemli amaçlarımdan biri, anne ve babamın benimle gurur duymasıdır.
+
+Cevap seçenekleri:
+1. Kesin Kabul Etmem
+2. Kabul Etmem
+3. Kabul Ederim
+4. Kesin Kabul Ederim
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","numeric","True","1","Kesin Kabul Etmem","{'1': 0.7637427449226379, '2': 0.026133839040994644, '3': 0.029613519087433815, '4': 0.0014743703650310636}","[0.93, 0.032, 0.036, 0.002]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size bazı görüşler okuyacağım. Bunların her biri hakkındaki fikrinizi “kesinlikle kabul ederim”, “kabul ederim”, “kabul etmem” veya “kesinlikle kabul etmem” şeklinde belirtiniz. Hayatta en önemli amaçlarımdan biri, anne ve babamın benimle gurur duymasıdır.
+
+Cevap seçenekleri:
+A. Kesin Kabul Ederim
+B. Kabul Ederim
+C. Kabul Etmem
+D. Kesin Kabul Etmem
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","False","C","Kabul Etmem","{'A': 0.0036050891503691673, 'B': 0.008124194107949734, 'C': 0.7784824967384338, 'D': 0.11938416212797165}","[0.004, 0.009, 0.856, 0.131]"
+"<bos><start_of_turn>user
+Verilen her soru için şu formatı takip et.
+
+[Soru]
+Size bir kişinin tanımı ve bir soru verilir. Soru metnindeki seçeneklerden en uygun yanıtı seçmelisiniz.
+
+Lütfen yanıt seçeneklerinden yalnızca birini kullanarak yanıtlayın ve tek bir harfle [harf] formatında cevap verin. Ayrıntılı bilgi vermeyin veya seçtiğiniz harften başka herhangi bir bilgi vermeyin.
+
+Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size bazı görüşler okuyacağım. Bunların her biri hakkındaki fikrinizi “kesinlikle kabul ederim”, “kabul ederim”, “kabul etmem” veya “kesinlikle kabul etmem” şeklinde belirtiniz. Hayatta en önemli amaçlarımdan biri, anne ve babamın benimle gurur duymasıdır.
+
+Cevap seçenekleri:
+A. Kesin Kabul Etmem
+B. Kabul Etmem
+C. Kabul Ederim
+D. Kesin Kabul Ederim
+
+Yalnızca bir yanıt seçin (A, B, C, vb.):
+
+<end_of_turn><start_of_turn>model
+
+Cevap:
+","letter","True","A","Kesin Kabul Etmem","{'A': 0.8165985941886902, 'B': 0.024659141898155212, 'C': 0.01694796234369278, 'D': 0.024659141898155212}","[0.925, 0.028, 0.019, 0.028]"

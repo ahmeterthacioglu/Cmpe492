@@ -100,7 +100,7 @@ for i, survey_row in survey_mapping.iterrows():
 results_df = pd.DataFrame(results)
 
 # Save to a new CSV file
-results_df.to_csv('results/matched_survey_global_data.csv', index=False)
+results_df.to_csv('results/rest/matched_survey_global_data.csv', index=False)
 
 print("Data matching complete and saved to 'results/matched_survey_global_data.csv'.")
 

@@ -1,10 +1,8 @@
 import pandas as pd
 from itertools import product
 
-# Step 1: Load the survey data file
 survey_data = pd.read_csv('data/F00013167-WVS_Wave_7_Turkey_Csv_v5.0.csv', sep=';')
 
-# Step 2: Define the mapping for the features
 # Gender
 gender_map = {1: 'Male', 2: 'Female'}
 
@@ -64,7 +62,6 @@ social_class_map = {
     5: 'Lower class'
 }
 
-# Step 3: Apply the mapping to the survey data to create the feature columns
 survey_data['Gender'] = survey_data['Q260'].map(gender_map)
 survey_data['Age Group'] = survey_data['Q262'].apply(categorize_age)
 survey_data['Marital Status'] = survey_data['Q273'].map(marital_status_map)
@@ -73,13 +70,11 @@ survey_data['Education Level'] = survey_data['Q275'].map(education_level_map)
 survey_data['Employment Status'] = survey_data['Q279'].map(employment_status_map)
 survey_data['Social Class'] = survey_data['Q287'].map(social_class_map)
 
-# Step 4: Filter out rows with any missing demographic data
 survey_data_filtered = survey_data.dropna(subset=[
     'Gender', 'Age Group', 'Marital Status', 'Children Group',
     'Education Level', 'Employment Status', 'Social Class'
 ])
 
-# Step 5: Define all possible combinations of personas
 gender_choices = ['Male', 'Female']
 age_choices = ['Up to 29', '30-49', '50 and more']
 marital_status_choices = ['Married', 'Single', 'Divorced']
@@ -113,13 +108,11 @@ social_class_choices = [
     'Lower class'
 ]
 
-# Step 6: Generate all combinations (personas)
 all_personas = list(product(
     gender_choices, age_choices, marital_status_choices, children_choices,
     education_choices, employment_choices, social_class_choices
 ))
 
-# Step 7: Count the number of matching records in the filtered survey data for each persona
 persona_counts = []
 total_number = 0
 
@@ -151,12 +144,10 @@ for persona in all_personas:
 
 print(f"Total matched personas: {total_number}")
 
-# Step 8: Convert the results to a DataFrame
 persona_df = pd.DataFrame(persona_counts)
 
-# Step 9: Display the most important personas (sorted by Count in descending order)
 important_personas = persona_df[persona_df['Count'] > 0].sort_values(by='Count', ascending=False)
 
 # Save the DataFrame with all personas and their corresponding counts to a CSV file
-important_personas.to_csv('important_persona_counts.csv', index=False)
+important_personas.to_csv('results/rest/important_persona_counts_en.csv', index=False)
 important_personas

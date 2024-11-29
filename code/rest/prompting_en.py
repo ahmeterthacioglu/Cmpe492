@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the processed persona data from the previous steps
-persona_df = pd.read_csv('important_persona_counts.csv')
+persona_df = pd.read_csv('results/rest/important_persona_counts_en.csv')
 survey_data = pd.read_csv('data/F00013167-WVS_Wave_7_Turkey_Csv_v5.0.csv', sep=';')
 survey_mapping = pd.read_csv('results/survey_question_mapping.csv')
 
@@ -18,6 +18,7 @@ def categorize_age(age):
         return '30-49'
     else:
         return '50 and more'
+    
 # Ensure that necessary columns are created in survey_data
 def preprocess_survey_data(survey_data):
     # Define mappings and helper functions
@@ -295,18 +296,18 @@ def get_survey_results_with_text(prompt, question_text):
 
 # Example usage
 prompt = "Ayşe, 35 years old female, married, with 2 children, has a primary education, and is Housewife not otherwise employed"
+prompt1 = "Ayşe, 35 years old "
+
 question_text = "For each of the following, indicate how important it is in your life. Would you say it is very important, rather important, not very important or not important at all? Family"
 question_text2 = "For each of the following, indicate how important it is in your life. Would you say it is very important, rather important, not very important or not important at all? Friends"
-results_text = get_survey_results_with_text(prompt, question_text2)    
+results_text = get_survey_results_with_text(prompt1, question_text)    
 if results_text is not None:
     print(results_text)
 
 print("-----------------------")
 # Example usage
 prompt = "Ayşe, 35 years old female, married, with 2 children, has a primary education, and is Housewife not otherwise employed"
-prompt1 = "Ayşe, 35 years old "
+prompt1 = "Ayşe"
 
 question_id = 'Q2'  # Replace with the actual question ID you want to analyze
 results = get_survey_results(prompt, question_id)
-if results is not None:
-    print(results)

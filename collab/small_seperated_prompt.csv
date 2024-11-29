@@ -1,0 +1,285 @@
+Persona,Question,Response Options,Final Prompt
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Aileniz","['Çok Önemli', 'Biraz Önemli', 'Pek Önemli Değil', 'Hiç Önemli Değil']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Aileniz
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Dost ve arkadaşlarınız","['Çok Önemli', 'Biraz Önemli', 'Pek Önemli Değil', 'Hiç Önemli Değil']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Dost ve arkadaşlarınız
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Kendiniz için ayırdığınız boş zaman","['Çok Önemli', 'Biraz Önemli', 'Pek Önemli Değil', 'Hiç Önemli Değil']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Kendiniz için ayırdığınız boş zaman
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Siyaset","['Çok Önemli', 'Biraz Önemli', 'Pek Önemli Değil', 'Hiç Önemli Değil']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Siyaset
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? İş ve çalışma","['Çok Önemli', 'Biraz Önemli', 'Pek Önemli Değil', 'Hiç Önemli Değil']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? İş ve çalışma
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Din","['Çok Önemli', 'Biraz Önemli', 'Pek Önemli Değil', 'Hiç Önemli Değil']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi soracaklarımdan her biri sizin için ne kadar önemlidir? Yani bunlar sizin için çok mu önemli, biraz mı önemli, pek önemli değil mi, yoksa hiç önemi yok mu? Din
+
+Cevap seçenekleri:
+1. Çok Önemli
+2. Biraz Önemli
+3. Pek Önemli Değil
+4. Hiç Önemli Değil
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Terbiye,"['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Terbiye
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bağımsızlık,"['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bağımsızlık
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Çalışkanlık,"['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Çalışkanlık
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sorumluluk duygusu,"['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sorumluluk duygusu
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Hayalgücü,"['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Hayalgücü
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Başka insanlara karşı saygı ve hoşgörü,"['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Başka insanlara karşı saygı ve hoşgörü
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Tutumluluk, para ve malına özen","['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Tutumluluk, para ve malına özen
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sebat, azim, kararlılık","['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Sebat, azim, kararlılık
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Dindarlık,"['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Dindarlık
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bencil olmamak,"['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Bencil olmamak
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Söz dinleme ve itaat,"['Belirtildi', 'Belirtilmedi']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size çocukların evde öğrenmelerini isteyebileceğiniz bazı hususlar sayacağım. Sizce bunlardan hangileri önem taşır. Bu tabloya bakarak LÜTFEN EN FAZLA BEŞ TANESİNİ belirtiniz. Söz dinleme ve itaat
+
+Cevap seçenekleri:
+1. Belirtildi
+2. Belirtilmedi
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Uyuşturucu madde kullananlar,"['İstemem', 'Olabilir']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Uyuşturucu madde kullananlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir ırk veya renkten insanlar,"['İstemem', 'Olabilir']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir ırk veya renkten insanlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. AIDS hastalığı olanlar,"['İstemem', 'Olabilir']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. AIDS hastalığı olanlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Göçmenler, başka ülkelerden gelen işçiler","['İstemem', 'Olabilir']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Göçmenler, başka ülkelerden gelen işçiler
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Eşcinseller (homoseksüeller),"['İstemem', 'Olabilir']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Eşcinseller (homoseksüeller)
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir dinden olanlar,"['İstemem', 'Olabilir']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Başka bir dinden olanlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Çok içki içenler,"['İstemem', 'Olabilir']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Çok içki içenler
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Nikâhsız bir arada yaşayan çiftler,"['İstemem', 'Olabilir']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Nikâhsız bir arada yaşayan çiftler
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.",Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Sizinkinden farklı bir anadil konuşanlar,"['İstemem', 'Olabilir']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Diyelim evinizin yanına bir komşu taşınacak. Şimdi size göstereceğim insanlardan hangilerinin komşunuz olmasını İSTEMEZDİNİZ? İstemediklerinizi seçip belirtiniz. Sizinkinden farklı bir anadil konuşanlar
+
+Cevap seçenekleri:
+1. İstemem
+2. Olabilir
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"
+"Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.","Şimdi size bazı görüşler okuyacağım. Bunların her biri hakkındaki fikrinizi “kesinlikle kabul ederim”, “kabul ederim”, “kabul etmem” veya “kesinlikle kabul etmem” şeklinde belirtiniz. Hayatta en önemli amaçlarımdan biri, anne ve babamın benimle gurur duymasıdır.","['Kesin Kabul Ederim', 'Kabul Ederim', 'Kabul Etmem', 'Kesin Kabul Etmem']","Ahmet, 24 yaşında bekâr bir erkek, çocuğu yok, hiç okula gitmemiş, Ankara şehrinde kent merkezinde yaşayan, kendi sosyal sınıfını alt sınıf olarak tanımlayan, işsiz/iş arayan birisidir.
+
+Bu kişi aşağıdaki soruya ne cevap verir?
+Şimdi size bazı görüşler okuyacağım. Bunların her biri hakkındaki fikrinizi “kesinlikle kabul ederim”, “kabul ederim”, “kabul etmem” veya “kesinlikle kabul etmem” şeklinde belirtiniz. Hayatta en önemli amaçlarımdan biri, anne ve babamın benimle gurur duymasıdır.
+
+Cevap seçenekleri:
+1. Kesin Kabul Ederim
+2. Kabul Ederim
+3. Kabul Etmem
+4. Kesin Kabul Etmem
+
+Yalnızca bir yanıt seçin (1, 2, 3, vb.):"

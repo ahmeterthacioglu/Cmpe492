@@ -174,7 +174,7 @@ def save_questions_to_csv(mapping, filename):
             writer.writerow(row)
 
 # Save the mapped questions to a CSV file
-save_questions_to_csv(question_mapping, "results/survey_question_mapping_incomplete.csv")
+save_questions_to_csv(question_mapping, "results/rest/survey_question_mapping_incomplete.csv")
 
 # Identify inconsistencies and manually verify them
 def identify_inconsistencies(mapping):
@@ -212,7 +212,7 @@ def save_inconsistencies_to_csv(inconsistencies, filename):
         for row in inconsistencies:
             writer.writerow(row)
 
-save_inconsistencies_to_csv(inconsistencies, "results/inconsistencies_review.csv")
+save_inconsistencies_to_csv(inconsistencies, "results/rest/inconsistencies_review.csv")
 
 print("Extraction and mapping completed. Please check 'survey_question_mapping_incomplete.csv' and 'inconsistencies_review.csv' for details.")
 
