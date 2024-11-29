@@ -1,0 +1,598 @@
+Gender,Age Group,Marital Status,Children Group,Education Level,Employment Status,Social Class,Count
+Female,30-49,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Working class,19
+Male,30-49,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,19
+Female,30-49,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,17
+Male,30-49,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,16
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Working class,12
+Female,30-49,Married,2 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Working class,12
+Male,30-49,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,11
+Female,30-49,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,11
+Female,30-49,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,11
+Male,30-49,Married,2 children,Primary education (ISCED 1),Self-employed,Upper middle class,11
+Male,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,11
+Female,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Working class,11
+Female,30-49,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,10
+Male,30-49,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,10
+Female,30-49,Married,4 or more children,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,10
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,10
+Female,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,10
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,10
+Female,30-49,Married,2 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Upper middle class,9
+Female,30-49,Married,1 child,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,9
+Female,30-49,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Working class,9
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Working class,9
+Male,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,8
+Female,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,8
+Male,30-49,Married,2 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,8
+Male,30-49,Married,2 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower middle class,8
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Self-employed,Upper middle class,8
+Male,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,8
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,8
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,8
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,7
+Male,30-49,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,7
+Female,30-49,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,7
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Retired/pensioned,Lower middle class,7
+Female,30-49,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,7
+Female,30-49,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Working class,7
+Female,30-49,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,7
+Male,30-49,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,7
+Male,30-49,Married,3 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,7
+Female,30-49,Married,4 or more children,Primary education (ISCED 1),Housewife not otherwise employed,Working class,6
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,6
+Female,30-49,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,6
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Retired/pensioned,Lower middle class,6
+Male,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Self-employed,Upper middle class,6
+Female,50 and more,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,6
+Male,30-49,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,6
+Female,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower class,6
+Male,50 and more,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,6
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,6
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower class,6
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,6
+Female,30-49,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,5
+Female,30-49,Married,2 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Lower middle class,5
+Female,Up to 29,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,5
+Male,50 and more,Married,1 child,Primary education (ISCED 1),Retired/pensioned,Working class,5
+Female,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,5
+Male,50 and more,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,5
+Female,30-49,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower class,5
+Female,30-49,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,5
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,5
+Female,50 and more,Married,4 or more children,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,5
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,5
+Male,30-49,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,5
+Female,30-49,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,5
+Male,50 and more,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,5
+Female,50 and more,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Working class,5
+Female,30-49,Married,1 child,Upper secondary education (ISCED 3),Housewife not otherwise employed,Upper middle class,5
+Female,50 and more,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,5
+Female,30-49,Married,2 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,5
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,5
+Female,50 and more,Married,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Working class,5
+Male,30-49,Married,1 child,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower middle class,4
+Female,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Working class,4
+Female,50 and more,Married,4 or more children,Primary education (ISCED 1),Housewife not otherwise employed,Lower class,4
+Male,30-49,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,4
+Male,30-49,Married,3 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,4
+Female,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,4
+Male,30-49,Married,4 or more children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,4
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Working class,4
+Female,30-49,Married,1 child,Lower secondary education (ISCED 2),Housewife not otherwise employed,Lower middle class,4
+Male,50 and more,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,4
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Retired/pensioned,Working class,4
+Male,Up to 29,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,4
+Female,30-49,Married,4 or more children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Working class,4
+Male,30-49,Married,2 children,Primary education (ISCED 1),Self-employed,Working class,4
+Male,50 and more,Married,2 children,Upper secondary education (ISCED 3),Retired/pensioned,Lower middle class,4
+Female,50 and more,Married,2 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Working class,4
+Male,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,4
+Male,30-49,Married,2 children,Primary education (ISCED 1),Self-employed,Lower class,4
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Retired/pensioned,Working class,4
+Female,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,4
+Male,30-49,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,4
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Retired/pensioned,Lower middle class,4
+Female,30-49,Married,1 child,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,3
+Female,30-49,Married,1 child,Lower secondary education (ISCED 2),Housewife not otherwise employed,Upper middle class,3
+Female,30-49,Married,1 child,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Upper middle class,3
+Female,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,3
+Female,30-49,Married,2 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Working class,3
+Male,30-49,Married,3 children,Lower secondary education (ISCED 2),Self-employed,Working class,3
+Male,30-49,Married,3 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,3
+Female,30-49,Married,1 child,Upper secondary education (ISCED 3),Housewife not otherwise employed,Working class,3
+Female,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Upper middle class,3
+Male,50 and more,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,3
+Male,30-49,Married,4 or more children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower middle class,3
+Female,30-49,Married,2 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,3
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Unemployed,Working class,3
+Male,30-49,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower class,3
+Male,30-49,Married,1 child,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,3
+Female,50 and more,Married,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,3
+Female,50 and more,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,3
+Male,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,3
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,3
+Male,30-49,Married,1 child,Upper secondary education (ISCED 3),Self-employed,Upper middle class,3
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,3
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Retired/pensioned,Lower middle class,3
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Retired/pensioned,Working class,3
+Male,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Retired/pensioned,Upper middle class,3
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Self-employed,Upper middle class,3
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Self-employed,Upper middle class,3
+Female,50 and more,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,3
+Male,50 and more,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,3
+Female,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower class,3
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Retired/pensioned,Working class,3
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Unemployed,Lower class,3
+Male,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,3
+Male,50 and more,Married,2 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,3
+Male,30-49,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,3
+Female,50 and more,Married,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Upper middle class,3
+Female,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,3
+Male,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower middle class,3
+Female,30-49,Married,4 or more children,Primary education (ISCED 1),Housewife not otherwise employed,Lower class,3
+Female,30-49,Married,3 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Working class,3
+Female,30-49,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower class,3
+Female,30-49,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,3
+Female,30-49,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,3
+Female,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,3
+Female,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Upper middle class,3
+Male,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Retired/pensioned,Working class,3
+Male,50 and more,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,2
+Female,Up to 29,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Working class,2
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,2
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Self-employed,Lower middle class,2
+Male,50 and more,Married,4 or more children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,2
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,2
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Self-employed,Lower middle class,2
+Male,50 and more,Married,3 children,Bachelor or equivalent (ISCED 6),Retired/pensioned,Upper middle class,2
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Retired/pensioned,Upper middle class,2
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,2
+Male,50 and more,Married,4 or more children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Upper middle class,2
+Male,50 and more,Married,3 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,2
+Male,50 and more,Married,3 children,Lower secondary education (ISCED 2),Retired/pensioned,Lower middle class,2
+Male,Up to 29,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,2
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Retired/pensioned,Upper middle class,2
+Male,50 and more,Married,3 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,2
+Female,30-49,Married,2 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower class,2
+Female,Up to 29,Married,1 child,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Working class,2
+Female,50 and more,Married,2 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Upper middle class,2
+Female,30-49,Married,4 or more children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,2
+Female,30-49,Divorced,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,2
+Female,30-49,Divorced,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,2
+Female,30-49,Divorced,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,2
+Female,30-49,Divorced,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,2
+Female,50 and more,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,2
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Upper middle class,2
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower class,2
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Retired/pensioned,Upper middle class,2
+Female,50 and more,Married,2 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Working class,2
+Female,Up to 29,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower class,2
+Female,50 and more,Married,2 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,2
+Female,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,2
+Female,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Retired/pensioned,Upper middle class,2
+Female,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Lower middle class,2
+Female,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Upper middle class,2
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Working class,2
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower class,2
+Female,50 and more,Married,3 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Lower middle class,2
+Female,50 and more,Married,4 or more children,Upper secondary education (ISCED 3),Retired/pensioned,Upper middle class,2
+Female,30-49,Married,4 or more children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,2
+Female,30-49,Married,3 children,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Lower middle class,2
+Female,30-49,Married,3 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Upper middle class,2
+Female,30-49,Married,3 children,Upper secondary education (ISCED 3),Self-employed,Upper middle class,2
+Female,Up to 29,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,2
+Female,30-49,Married,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,2
+Female,30-49,Married,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Working class,2
+Female,30-49,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,2
+Female,30-49,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Lower class,2
+Female,30-49,Married,1 child,Lower secondary education (ISCED 2),Housewife not otherwise employed,Working class,2
+Female,30-49,Married,1 child,Upper secondary education (ISCED 3),Self-employed,Lower middle class,2
+Female,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower middle class,2
+Female,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Upper middle class,2
+Female,30-49,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,2
+Female,30-49,Married,2 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Upper middle class,2
+Female,30-49,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,2
+Female,30-49,Married,2 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Upper class,2
+Male,50 and more,Married,2 children,Lower secondary education (ISCED 2),Self-employed,Upper middle class,2
+Female,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Lower middle class,2
+Female,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Working class,2
+Female,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Working class,2
+Female,30-49,Married,3 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Upper middle class,2
+Female,30-49,Married,3 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Lower middle class,2
+Male,50 and more,Married,2 children,Lower secondary education (ISCED 2),Retired/pensioned,Lower middle class,2
+Female,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,2
+Male,Up to 29,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,2
+Male,30-49,Married,4 or more children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,2
+Male,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Retired/pensioned,Working class,2
+Male,30-49,Married,4 or more children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,2
+Male,30-49,Married,3 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,2
+Male,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Self-employed,Upper middle class,2
+Male,30-49,Married,3 children,Upper secondary education (ISCED 3),Self-employed,Lower middle class,2
+Male,30-49,Married,2 children,Primary education (ISCED 1),Self-employed,Lower middle class,2
+Male,50 and more,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower class,2
+Male,30-49,Married,1 child,Primary education (ISCED 1),Unemployed,Lower class,2
+Male,30-49,Married,2 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Upper middle class,2
+Male,30-49,Married,4 or more children,Primary education (ISCED 1),Self-employed,Upper middle class,2
+Male,30-49,Married,4 or more children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,2
+Male,30-49,Married,4 or more children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower class,2
+Male,30-49,Married,1 child,Primary education (ISCED 1),Self-employed,Working class,2
+Male,30-49,Married,1 child,Primary education (ISCED 1),Self-employed,Lower middle class,2
+Male,Up to 29,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,2
+Male,50 and more,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,2
+Male,30-49,Married,4 or more children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,2
+Male,30-49,Married,2 children,Primary education (ISCED 1),Retired/pensioned,Lower middle class,2
+Male,30-49,Married,1 child,Lower secondary education (ISCED 2),Unemployed,Working class,2
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Self-employed,Lower middle class,2
+Male,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower middle class,2
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Lower middle class,2
+Male,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,2
+Male,Up to 29,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,2
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Unemployed,Working class,2
+Male,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Self-employed,Upper middle class,2
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Self-employed,Lower middle class,2
+Male,30-49,Married,4 or more children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,2
+Male,30-49,Married,3 children,Primary education (ISCED 1),Self-employed,Working class,2
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Self-employed,Lower class,2
+Male,30-49,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,2
+Male,30-49,Married,3 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Upper middle class,2
+Male,30-49,Married,3 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower middle class,2
+Male,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Unemployed,Lower class,2
+Male,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,2
+Female,30-49,Divorced,1 child,Primary education (ISCED 1),Unemployed,Working class,1
+Male,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Unemployed,Upper middle class,1
+Female,30-49,Divorced,1 child,Upper secondary education (ISCED 3),Part-time employee (less than 30 hours a week),Lower middle class,1
+Female,30-49,Divorced,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,30-49,Divorced,1 child,Bachelor or equivalent (ISCED 6),Self-employed,Upper middle class,1
+Female,30-49,Divorced,1 child,Upper secondary education (ISCED 3),Self-employed,Lower middle class,1
+Female,30-49,Divorced,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Divorced,1 child,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower class,1
+Male,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,50 and more,Married,2 children,Lower secondary education (ISCED 2),Self-employed,Upper class,1
+Female,30-49,Divorced,1 child,Bachelor or equivalent (ISCED 6),Retired/pensioned,Lower middle class,1
+Female,30-49,Divorced,1 child,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Lower middle class,1
+Female,50 and more,Married,1 child,Lower secondary education (ISCED 2),Housewife not otherwise employed,Upper middle class,1
+Male,30-49,Married,1 child,Upper secondary education (ISCED 3),Unemployed,Working class,1
+Male,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,1
+Female,50 and more,Married,1 child,Primary education (ISCED 1),Self-employed,Upper middle class,1
+Male,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Self-employed,Working class,1
+Male,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Unemployed,Working class,1
+Female,50 and more,Married,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower class,1
+Male,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Unemployed,Lower class,1
+Male,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower class,1
+Female,50 and more,Married,1 child,Early childhood education (ISCED 0) / no education,Retired/pensioned,Upper middle class,1
+Female,50 and more,Married,1 child,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,1
+Female,30-49,Divorced,4 or more children,Upper secondary education (ISCED 3),Self-employed,Upper middle class,1
+Female,30-49,Divorced,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Divorced,2 children,Upper secondary education (ISCED 3),Self-employed,Lower middle class,1
+Female,30-49,Divorced,2 children,Lower secondary education (ISCED 2),Self-employed,Lower middle class,1
+Female,30-49,Divorced,2 children,Primary education (ISCED 1),Self-employed,Lower middle class,1
+Female,30-49,Divorced,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,30-49,Divorced,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Married,4 or more children,Lower secondary education (ISCED 2),Self-employed,Upper middle class,1
+Female,30-49,Married,4 or more children,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Upper middle class,1
+Female,30-49,Married,3 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,30-49,Married,2 children,Lower secondary education (ISCED 2),Self-employed,Working class,1
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower class,1
+Female,30-49,Married,3 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,1
+Female,30-49,Married,3 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Part-time employee (less than 30 hours a week),Working class,1
+Female,30-49,Married,3 children,Lower secondary education (ISCED 2),Part-time employee (less than 30 hours a week),Working class,1
+Female,30-49,Married,3 children,Lower secondary education (ISCED 2),Part-time employee (less than 30 hours a week),Lower middle class,1
+Female,30-49,Married,3 children,Primary education (ISCED 1),Other (write in),Lower class,1
+Female,30-49,Married,4 or more children,Bachelor or equivalent (ISCED 6),Self-employed,Upper middle class,1
+Female,30-49,Married,3 children,Primary education (ISCED 1),Other (write in),Lower middle class,1
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Self-employed,Working class,1
+Male,30-49,Married,2 children,Upper secondary education (ISCED 3),Unemployed,Lower class,1
+Female,30-49,Married,3 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Self-employed,Lower middle class,1
+Female,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower class,1
+Male,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Self-employed,Working class,1
+Female,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,1
+Female,30-49,Married,3 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,1
+Female,30-49,Married,3 children,Upper secondary education (ISCED 3),Unemployed,Working class,1
+Female,30-49,Married,3 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Married,4 or more children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,1
+Female,30-49,Married,4 or more children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,1
+Male,30-49,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower class,1
+Female,30-49,Married,4 or more children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,1
+Female,30-49,Married,4 or more children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,1
+Female,30-49,Married,4 or more children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,30-49,Married,4 or more children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Married,4 or more children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Upper middle class,1
+Female,50 and more,Married,1 child,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,1
+Female,30-49,Married,4 or more children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,1
+Male,30-49,Married,2 children,Primary education (ISCED 1),Retired/pensioned,Upper middle class,1
+Female,30-49,Married,4 or more children,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,1
+Female,30-49,Married,4 or more children,Primary education (ISCED 1),Self-employed,Lower middle class,1
+Female,30-49,Married,4 or more children,Primary education (ISCED 1),Self-employed,Upper middle class,1
+Female,30-49,Married,4 or more children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,1
+Male,30-49,Married,2 children,Primary education (ISCED 1),Unemployed,Lower middle class,1
+Male,30-49,Married,2 children,Primary education (ISCED 1),Unemployed,Lower class,1
+Female,30-49,Married,4 or more children,Early childhood education (ISCED 0) / no education,Part-time employee (less than 30 hours a week),Working class,1
+Female,50 and more,Married,1 child,Upper secondary education (ISCED 3),Self-employed,Lower middle class,1
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Part-time employee (less than 30 hours a week),Lower class,1
+Female,50 and more,Married,1 child,Bachelor or equivalent (ISCED 6),Retired/pensioned,Upper middle class,1
+Female,50 and more,Married,3 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower class,1
+Male,Up to 29,Married,1 child,Lower secondary education (ISCED 2),Self-employed,Upper middle class,1
+Male,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,1
+Male,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower class,1
+Female,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Upper middle class,1
+Female,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Upper class,1
+Female,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Part-time employee (less than 30 hours a week),Lower class,1
+Female,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Part-time employee (less than 30 hours a week),Working class,1
+Female,50 and more,Married,3 children,Bachelor or equivalent (ISCED 6),Retired/pensioned,Lower middle class,1
+Female,50 and more,Married,3 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,1
+Female,50 and more,Married,3 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,1
+Female,50 and more,Married,4 or more children,Primary education (ISCED 1),Housewife not otherwise employed,Upper class,1
+Female,50 and more,Married,3 children,Upper secondary education (ISCED 3),Retired/pensioned,Upper middle class,1
+Female,50 and more,Married,3 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,50 and more,Married,3 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Working class,1
+Male,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Retired/pensioned,Lower class,1
+Female,50 and more,Married,3 children,Lower secondary education (ISCED 2),Part-time employee (less than 30 hours a week),Working class,1
+Female,50 and more,Married,3 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Other (write in),Upper middle class,1
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Unemployed,Lower middle class,1
+Male,Up to 29,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,50 and more,Married,4 or more children,Primary education (ISCED 1),Retired/pensioned,Working class,1
+Female,50 and more,Married,4 or more children,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,1
+Male,Up to 29,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,1
+Female,50 and more,Divorced,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,1
+Female,50 and more,Divorced,3 children,Primary education (ISCED 1),Retired/pensioned,Working class,1
+Female,50 and more,Divorced,3 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Lower class,1
+Female,50 and more,Divorced,3 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,1
+Female,50 and more,Divorced,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,50 and more,Divorced,2 children,Primary education (ISCED 1),Retired/pensioned,Working class,1
+Female,50 and more,Divorced,2 children,Primary education (ISCED 1),Self-employed,Upper middle class,1
+Female,50 and more,Divorced,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,50 and more,Divorced,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower middle class,1
+Female,50 and more,Divorced,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Working class,1
+Female,50 and more,Divorced,1 child,Early childhood education (ISCED 0) / no education,Retired/pensioned,Lower middle class,1
+Male,Up to 29,Married,1 child,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,1
+Female,50 and more,Married,4 or more children,Bachelor or equivalent (ISCED 6),Retired/pensioned,Upper middle class,1
+Female,50 and more,Married,4 or more children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,50 and more,Married,4 or more children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Working class,1
+Male,Up to 29,Married,1 child,Primary education (ISCED 1),Self-employed,Upper middle class,1
+Female,50 and more,Married,4 or more children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Working class,1
+Female,50 and more,Married,4 or more children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower class,1
+Female,50 and more,Married,4 or more children,Primary education (ISCED 1),Other (write in),Working class,1
+Male,Up to 29,Married,1 child,Primary education (ISCED 1),Unemployed,Lower middle class,1
+Female,50 and more,Married,4 or more children,Primary education (ISCED 1),Housewife not otherwise employed,Working class,1
+Male,Up to 29,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Self-employed,Upper middle class,1
+Female,50 and more,Married,1 child,Bachelor or equivalent (ISCED 6),Retired/pensioned,Lower middle class,1
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,50 and more,Married,2 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Lower middle class,1
+Male,30-49,Married,1 child,Primary education (ISCED 1),Self-employed,Upper middle class,1
+Female,50 and more,Married,2 children,Lower secondary education (ISCED 2),Retired/pensioned,Lower middle class,1
+Male,30-49,Married,1 child,Primary education (ISCED 1),Retired/pensioned,Working class,1
+Male,30-49,Married,1 child,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower class,1
+Male,30-49,Married,1 child,Lower secondary education (ISCED 2),Part-time employee (less than 30 hours a week),Lower class,1
+Male,30-49,Married,1 child,Lower secondary education (ISCED 2),Self-employed,Upper middle class,1
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Self-employed,Lower class,1
+Female,50 and more,Married,2 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Working class,1
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Other (write in),Lower middle class,1
+Male,30-49,Married,1 child,Early childhood education (ISCED 0) / no education,Unemployed,Working class,1
+Male,30-49,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper class,1
+Male,30-49,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower class,1
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Upper middle class,1
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Self-employed,Upper middle class,1
+Female,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Self-employed,Upper class,1
+Male,30-49,Married,1 child,Upper secondary education (ISCED 3),Self-employed,Lower middle class,1
+Female,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower middle class,1
+Male,30-49,Married,1 child,Upper secondary education (ISCED 3),Unemployed,Lower middle class,1
+Female,50 and more,Married,1 child,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Lower middle class,1
+Male,30-49,Married,1 child,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Working class,1
+Female,50 and more,Married,2 children,Upper secondary education (ISCED 3),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,Up to 29,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower class,1
+Female,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Unemployed,Lower middle class,1
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower class,1
+Female,50 and more,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,1
+Male,Up to 29,Married,2 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,Up to 29,Married,2 children,Lower secondary education (ISCED 2),Unemployed,Lower class,1
+Male,Up to 29,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Retired/pensioned,Lower middle class,1
+Female,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Self-employed,Upper middle class,1
+Female,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,1
+Female,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Upper middle class,1
+Male,Up to 29,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower class,1
+Female,50 and more,Married,2 children,Upper secondary education (ISCED 3),Self-employed,Lower middle class,1
+Female,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Retired/pensioned,Upper class,1
+Female,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Part-time employee (less than 30 hours a week),Upper middle class,1
+Male,Up to 29,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,50 and more,Married,2 children,Upper secondary education (ISCED 3),Other (write in),Lower middle class,1
+Male,Up to 29,Married,2 children,Bachelor or equivalent (ISCED 6),Unemployed,Working class,1
+Male,Up to 29,Married,4 or more children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,50 and more,Married,2 children,Upper secondary education (ISCED 3),Retired/pensioned,Lower middle class,1
+Female,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Self-employed,Upper middle class,1
+Male,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Self-employed,Working class,1
+Male,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Unemployed,Lower middle class,1
+Male,50 and more,Married,1 child,Primary education (ISCED 1),Self-employed,Upper middle class,1
+Male,50 and more,Married,4 or more children,Upper secondary education (ISCED 3),Retired/pensioned,Upper middle class,1
+Male,50 and more,Married,4 or more children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,1
+Male,50 and more,Married,4 or more children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,50 and more,Married,4 or more children,Lower secondary education (ISCED 2),Retired/pensioned,Upper middle class,1
+Male,50 and more,Married,4 or more children,Lower secondary education (ISCED 2),Self-employed,Working class,1
+Male,50 and more,Married,4 or more children,Lower secondary education (ISCED 2),Self-employed,Lower middle class,1
+Male,50 and more,Married,1 child,Early childhood education (ISCED 0) / no education,Retired/pensioned,Lower middle class,1
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Unemployed,Working class,1
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Retired/pensioned,Lower class,1
+Male,50 and more,Married,1 child,Primary education (ISCED 1),Retired/pensioned,Upper middle class,1
+Male,50 and more,Married,4 or more children,Upper secondary education (ISCED 3),Retired/pensioned,Working class,1
+Male,50 and more,Married,1 child,Primary education (ISCED 1),Unemployed,Working class,1
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Self-employed,Working class,1
+Male,50 and more,Married,1 child,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,50 and more,Married,1 child,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower middle class,1
+Male,50 and more,Married,1 child,Lower secondary education (ISCED 2),Self-employed,Upper middle class,1
+Male,50 and more,Married,4 or more children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Retired/pensioned,Lower class,1
+Male,50 and more,Married,1 child,Lower secondary education (ISCED 2),Self-employed,Working class,1
+Male,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Self-employed,Lower middle class,1
+Male,50 and more,Married,4 or more children,Upper secondary education (ISCED 3),Retired/pensioned,Lower middle class,1
+Male,50 and more,Married,4 or more children,Upper secondary education (ISCED 3),Unemployed,Working class,1
+Male,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Upper middle class,1
+Male,30-49,Divorced,1 child,Bachelor or equivalent (ISCED 6),Self-employed,Upper middle class,1
+Female,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Other (write in),Lower middle class,1
+Female,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Housewife not otherwise employed,Working class,1
+Male,30-49,Divorced,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Housewife not otherwise employed,Upper middle class,1
+Female,Up to 29,Married,1 child,Upper secondary education (ISCED 3),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,30-49,Divorced,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,1
+Female,Up to 29,Married,1 child,Lower secondary education (ISCED 2),Housewife not otherwise employed,Working class,1
+Female,Up to 29,Married,1 child,Lower secondary education (ISCED 2),Housewife not otherwise employed,Lower middle class,1
+Female,Up to 29,Married,1 child,Lower secondary education (ISCED 2),Part-time employee (less than 30 hours a week),Working class,1
+Female,Up to 29,Married,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,1
+Male,50 and more,Married,4 or more children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,50 and more,Married,1 child,Early childhood education (ISCED 0) / no education,Self-employed,Upper middle class,1
+Female,Up to 29,Married,1 child,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Working class,1
+Female,Up to 29,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,Up to 29,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,Up to 29,Married,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Upper middle class,1
+Male,50 and more,Divorced,2 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,50 and more,Divorced,1 child,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower middle class,1
+Male,50 and more,Married,4 or more children,Bachelor or equivalent (ISCED 6),Self-employed,Upper middle class,1
+Male,50 and more,Married,4 or more children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,1
+Male,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower middle class,1
+Male,50 and more,Married,4 or more children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Upper middle class,1
+Male,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,1
+Male,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Self-employed,Working class,1
+Male,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Self-employed,Lower middle class,1
+Male,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Self-employed,Upper middle class,1
+Male,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Part-time employee (less than 30 hours a week),Working class,1
+Male,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower class,1
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower middle class,1
+Male,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Unemployed,Working class,1
+Male,50 and more,Married,2 children,Bachelor or equivalent (ISCED 6),Retired/pensioned,Lower middle class,1
+Male,50 and more,Married,2 children,Upper secondary education (ISCED 3),Retired/pensioned,Working class,1
+Male,50 and more,Married,1 child,Lower secondary education (ISCED 2),Retired/pensioned,Upper middle class,1
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Self-employed,Working class,1
+Male,50 and more,Married,2 children,Upper secondary education (ISCED 3),Retired/pensioned,Upper middle class,1
+Male,50 and more,Married,2 children,Upper secondary education (ISCED 3),Self-employed,Upper middle class,1
+Male,50 and more,Married,2 children,Upper secondary education (ISCED 3),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Retired/pensioned,Upper middle class,1
+Male,50 and more,Married,2 children,Primary education (ISCED 1),Unemployed,Lower middle class,1
+Male,50 and more,Married,2 children,Lower secondary education (ISCED 2),Unemployed,Lower class,1
+Male,50 and more,Married,2 children,Lower secondary education (ISCED 2),Retired/pensioned,Working class,1
+Male,50 and more,Married,2 children,Lower secondary education (ISCED 2),Part-time employee (less than 30 hours a week),Upper middle class,1
+Male,50 and more,Married,3 children,Early childhood education (ISCED 0) / no education,Self-employed,Lower class,1
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,1
+Male,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Retired/pensioned,Lower middle class,1
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower class,1
+Male,50 and more,Married,3 children,Bachelor or equivalent (ISCED 6),Self-employed,Working class,1
+Male,50 and more,Married,3 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,1
+Male,50 and more,Married,1 child,Lower secondary education (ISCED 2),Retired/pensioned,Lower middle class,1
+Male,50 and more,Married,3 children,Upper secondary education (ISCED 3),Unemployed,Working class,1
+Male,50 and more,Married,3 children,Upper secondary education (ISCED 3),Self-employed,Upper middle class,1
+Male,50 and more,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,50 and more,Married,3 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,50 and more,Married,3 children,Lower secondary education (ISCED 2),Self-employed,Lower middle class,1
+Male,50 and more,Married,3 children,Lower secondary education (ISCED 2),Self-employed,Upper middle class,1
+Male,50 and more,Married,3 children,Lower secondary education (ISCED 2),Part-time employee (less than 30 hours a week),Working class,1
+Male,50 and more,Married,3 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,1
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Unemployed,Lower class,1
+Male,50 and more,Married,1 child,Upper secondary education (ISCED 3),Self-employed,Working class,1
+Male,50 and more,Married,1 child,Upper secondary education (ISCED 3),Retired/pensioned,Working class,1
+Male,50 and more,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Male,50 and more,Married,1 child,Bachelor or equivalent (ISCED 6),Retired/pensioned,Upper middle class,1
+Male,50 and more,Married,3 children,Primary education (ISCED 1),Self-employed,Working class,1
+Male,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Part-time employee (less than 30 hours a week),Working class,1
+Male,50 and more,Married,2 children,Early childhood education (ISCED 0) / no education,Retired/pensioned,Upper middle class,1
+Female,Up to 29,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,Up to 29,Married,1 child,Bachelor or equivalent (ISCED 6),Part-time employee (less than 30 hours a week),Upper middle class,1
+Female,Up to 29,Married,1 child,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Upper middle class,1
+Male,30-49,Married,4 or more children,Early childhood education (ISCED 0) / no education,Unemployed,Lower middle class,1
+Female,30-49,Married,2 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Working class,1
+Female,30-49,Married,2 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,30-49,Married,3 children,Bachelor or equivalent (ISCED 6),Retired/pensioned,Lower middle class,1
+Female,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower class,1
+Female,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Working class,1
+Male,30-49,Married,4 or more children,Early childhood education (ISCED 0) / no education,Self-employed,Working class,1
+Male,30-49,Married,4 or more children,Early childhood education (ISCED 0) / no education,Self-employed,Lower class,1
+Female,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Part-time employee (less than 30 hours a week),Lower class,1
+Female,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,1
+Female,30-49,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Married,1 child,Upper secondary education (ISCED 3),Part-time employee (less than 30 hours a week),Upper middle class,1
+Female,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Working class,1
+Female,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Lower middle class,1
+Female,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Self-employed,Upper middle class,1
+Female,30-49,Married,1 child,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Working class,1
+Male,30-49,Married,4 or more children,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower class,1
+Female,30-49,Married,1 child,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower class,1
+Male,30-49,Married,4 or more children,Primary education (ISCED 1),Self-employed,Lower class,1
+Male,30-49,Married,4 or more children,Primary education (ISCED 1),Retired/pensioned,Working class,1
+Male,30-49,Married,4 or more children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Married,2 children,Primary education (ISCED 1),Self-employed,Upper middle class,1
+Male,30-49,Married,3 children,Upper secondary education (ISCED 3),Unemployed,Lower middle class,1
+Male,30-49,Married,3 children,Upper secondary education (ISCED 3),Self-employed,Upper middle class,1
+Female,30-49,Married,2 children,Primary education (ISCED 1),Unemployed,Lower class,1
+Male,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,1
+Female,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Retired/pensioned,Upper middle class,1
+Female,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Self-employed,Upper middle class,1
+Female,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Self-employed,Upper class,1
+Male,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Lower class,1
+Female,30-49,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Lower middle class,1
+Male,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Self-employed,Lower middle class,1
+Male,50 and more,Married,2 children,Lower secondary education (ISCED 2),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,30-49,Married,3 children,Early childhood education (ISCED 0) / no education,Unemployed,Upper middle class,1
+Male,30-49,Married,3 children,Primary education (ISCED 1),Self-employed,Upper middle class,1
+Male,30-49,Married,3 children,Primary education (ISCED 1),Self-employed,Lower middle class,1
+Female,30-49,Married,2 children,Upper secondary education (ISCED 3),Retired/pensioned,Lower middle class,1
+Male,30-49,Married,3 children,Primary education (ISCED 1),Unemployed,Lower class,1
+Male,30-49,Married,3 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower class,1
+Male,30-49,Married,3 children,Lower secondary education (ISCED 2),Part-time employee (less than 30 hours a week),Working class,1
+Male,30-49,Married,3 children,Lower secondary education (ISCED 2),Self-employed,Lower middle class,1
+Female,30-49,Married,2 children,Lower secondary education (ISCED 2),Self-employed,Upper middle class,1
+Male,30-49,Married,3 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Married,2 children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,30-49,Married,1 child,Upper secondary education (ISCED 3),Self-employed,Upper middle class,1
+Female,30-49,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,Up to 29,Married,1 child,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Lower middle class,1
+Male,30-49,Divorced,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,1
+Female,Up to 29,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower class,1
+Female,Up to 29,Married,3 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,1
+Female,Up to 29,Married,3 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower class,1
+Female,Up to 29,Married,2 children,Bachelor or equivalent (ISCED 6),Housewife not otherwise employed,Working class,1
+Female,Up to 29,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,Up to 29,Married,2 children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper class,1
+Female,Up to 29,Married,2 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,1
+Female,Up to 29,Married,2 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Upper middle class,1
+Female,Up to 29,Married,2 children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,Up to 29,Married,2 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Lower class,1
+Female,30-49,Married,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,Up to 29,Married,2 children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Working class,1
+Male,30-49,Divorced,1 child,Upper secondary education (ISCED 3),Part-time employee (less than 30 hours a week),Working class,1
+Female,Up to 29,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,1
+Female,Up to 29,Married,2 children,Primary education (ISCED 1),Housewife not otherwise employed,Upper middle class,1
+Female,Up to 29,Married,2 children,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Lower middle class,1
+Female,Up to 29,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower class,1
+Female,Up to 29,Married,2 children,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Working class,1
+Female,Up to 29,Married,2 children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,1
+Male,30-49,Divorced,1 child,Upper secondary education (ISCED 3),Retired/pensioned,Lower class,1
+Female,Up to 29,Married,3 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Upper middle class,1
+Female,Up to 29,Married,3 children,Upper secondary education (ISCED 3),Housewife not otherwise employed,Lower middle class,1
+Female,Up to 29,Married,4 or more children,Lower secondary education (ISCED 2),Housewife not otherwise employed,Working class,1
+Female,Up to 29,Divorced,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Working class,1
+Male,30-49,Married,4 or more children,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Working class,1
+Male,30-49,Married,4 or more children,Lower secondary education (ISCED 2),Self-employed,Upper middle class,1
+Male,30-49,Married,4 or more children,Lower secondary education (ISCED 2),Self-employed,Lower middle class,1
+Female,30-49,Married,1 child,Lower secondary education (ISCED 2),Full-time employee (30 hours a week or more),Lower middle class,1
+Male,30-49,Married,4 or more children,Lower secondary education (ISCED 2),Self-employed,Working class,1
+Female,30-49,Married,1 child,Primary education (ISCED 1),Other (write in),Lower class,1
+Male,30-49,Married,4 or more children,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Working class,1
+Male,30-49,Married,4 or more children,Upper secondary education (ISCED 3),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,30-49,Married,4 or more children,Bachelor or equivalent (ISCED 6),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Married,1 child,Primary education (ISCED 1),Part-time employee (less than 30 hours a week),Lower middle class,1
+Male,30-49,Married,4 or more children,Bachelor or equivalent (ISCED 6),Part-time employee (less than 30 hours a week),Lower middle class,1
+Female,30-49,Married,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,30-49,Married,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Lower class,1
+Male,30-49,Married,4 or more children,Bachelor or equivalent (ISCED 6),Self-employed,Working class,1
+Male,30-49,Divorced,1 child,Primary education (ISCED 1),Full-time employee (30 hours a week or more),Lower middle class,1
+Female,30-49,Married,1 child,Early childhood education (ISCED 0) / no education,Housewife not otherwise employed,Upper middle class,1
+Male,30-49,Divorced,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,Up to 29,Divorced,1 child,Upper secondary education (ISCED 3),Full-time employee (30 hours a week or more),Upper middle class,1
+Female,Up to 29,Divorced,1 child,Primary education (ISCED 1),Housewife not otherwise employed,Lower middle class,1
+Female,50 and more,Divorced,4 or more children,Early childhood education (ISCED 0) / no education,Full-time employee (30 hours a week or more),Working class,1
