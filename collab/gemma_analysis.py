@@ -101,8 +101,18 @@ def extract_response_after_cevap(raw_response):
 
 """
 
+!gunzip final_prompts.csv.gz
+
 #final_prompts_df = pd.read_csv('/content/final_prompts.csv', encoding='utf-8', on_bad_lines='skip', lineterminator='\n')
-final_prompts_df = pd.read_csv('/content/small_seperated_prompt.csv', encoding='utf-8', on_bad_lines='skip', lineterminator='\n')
+# final_prompts_df = pd.read_csv('/content/small_seperated_prompt.csv', encoding='utf-8', on_bad_lines='skip', lineterminator='\n')
+chunks = pd.read_csv(
+    '/content/final_prompts.csv',
+    encoding='utf-8',
+    chunksize=10000,
+    on_bad_lines='skip'
+)
+final_prompts_df = pd.concat(chunks, ignore_index=True).iloc[:500]
+
 import torch.nn.functional as F
 import ast
 import torch

@@ -93,9 +93,7 @@ social_class_map = {
 # Settlement type mapping
 settlement_type_map = {
     1: 'Kent merkezinde',
-    2: 'Kırsal alanda',
-    -1: '', #Fikri Yok
-    -2: '' #Cevap Yok
+    2: 'Kırsal alanda'
 }
 
 # Region mapping from N_REGION_WVS
@@ -162,11 +160,32 @@ def create_prompt(row):
     cities = region_info.split(', ')
     city = random.choice(cities)
     
+    # Handle empty or missing values for each field
+    if row['Sosyal Sınıf']:
+        social_class_text = f"kendi sosyal sınıfını {row['Sosyal Sınıf'].lower()} olarak tanımlayan"
+    else:
+        social_class_text = "sosyal sınıfı hakkında bilgi vermemiş"
+
+    if row['Eğitim Düzeyi']:
+        education_text = row['Eğitim Düzeyi'].lower()
+    else:
+        education_text = "eğitim durumu hakkında bilgi vermemiş"
+
+    if row['İş Durumu']:
+        employment_text = row['İş Durumu'].lower()
+    else:
+        employment_text = "iş durumu hakkında bilgi vermemiş"
+    if row['Medeni Durum']:
+        marital_status_text = row['Medeni Durum'].lower()
+    else:
+        marital_status_text = "medeni durumu hakkında bilgi vermemiş"
+
+    # Construct the prompt
     prompt = (
-        f"{name}, {age} yaşında {row['Medeni Durum'].lower()} bir {row['Cinsiyet'].lower()}, "
-        f"{row['Çocuk Sahipliği'].lower()}, {row['Eğitim Düzeyi'].lower()}, "
+        f"{name}, {age} yaşında {marital_status_text} bir {row['Cinsiyet'].lower()}, "
+        f"{row['Çocuk Sahipliği'].lower()}, {education_text}, "
         f"{city} şehrinde {row['Yerleşim Yeri'].lower()} yaşayan, "
-        f"kendi sosyal sınıfını {row['Sosyal Sınıf'].lower()} olarak tanımlayan, {row['İş Durumu'].lower()} birisidir."
+        f"{social_class_text}, {employment_text} birisidir."
     )
     return prompt
 
