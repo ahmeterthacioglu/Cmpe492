@@ -1,0 +1,270 @@
+@prefix : <http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey/> .
+
+<http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#answersQuestion
+:answersQuestion rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :questionAnsweredBy ;
+                 rdfs:domain :Surveyee ;
+                 rdfs:range :Question .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#answersSurvey
+:answersSurvey rdf:type owl:ObjectProperty ;
+               owl:inverseOf :surveyAnsweredBy ;
+               rdfs:domain :Surveyee ;
+               rdfs:range :Survey .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#hasAnswerChoice
+:hasAnswerChoice rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Question ;
+                 rdfs:range :AnswerChoice ;
+                 rdfs:comment "A possible answer to a given question" .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#hasQuestion
+:hasQuestion rdf:type owl:ObjectProperty ;
+             rdfs:domain :Survey ;
+             rdfs:range :Question .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#hasResponse
+:hasResponse rdf:type owl:ObjectProperty ;
+             rdfs:domain :Question ;
+             rdfs:range :Answer .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#questionAnsweredBy
+:questionAnsweredBy rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Question ;
+                    rdfs:range :Surveyee .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#selectedAnswer
+:selectedAnswer rdf:type owl:ObjectProperty ;
+                rdfs:domain :Answer ;
+                rdfs:range :AnswerChoice .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#surveyAnsweredBy
+:surveyAnsweredBy rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Survey ;
+                  rdfs:range :Surveyee .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#hasAnswerChoiceText
+:hasAnswerChoiceText rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :AnswerChoice ;
+                     rdfs:range xsd:string .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#hasAnswerLabelType
+:hasAnswerLabelType rdf:type owl:DatatypeProperty ;
+                    rdfs:range [ rdf:type rdfs:Datatype ;
+                                 owl:oneOf [ rdf:type rdf:List ;
+                                             rdf:first "alphabetic" ;
+                                             rdf:rest [ rdf:type rdf:List ;
+                                                        rdf:first "numeric" ;
+                                                        rdf:rest rdf:nil
+                                                      ]
+                                           ]
+                               ] .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#hasChild
+:hasChild rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Surveyee ;
+          rdfs:range xsd:integer .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#hasGender
+:hasGender rdf:type owl:DatatypeProperty ;
+           rdfs:domain [ rdf:type owl:Class ;
+                         owl:unionOf ( :Persona
+                                       :Surveyee
+                                     )
+                       ] ;
+           rdfs:range [ rdf:type rdfs:Datatype ;
+                        owl:oneOf [ rdf:type rdf:List ;
+                                    rdf:first "female" ;
+                                    rdf:rest [ rdf:type rdf:List ;
+                                               rdf:first "male" ;
+                                               rdf:rest rdf:nil
+                                             ]
+                                  ]
+                      ] .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#hasMaritalStatus
+:hasMaritalStatus rdf:type owl:DatatypeProperty ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( :Persona
+                                              :Surveyee
+                                            )
+                              ] ;
+                  rdfs:range [ rdf:type rdfs:Datatype ;
+                               owl:oneOf [ rdf:type rdf:List ;
+                                           rdf:first "divorced" ;
+                                           rdf:rest [ rdf:type rdf:List ;
+                                                      rdf:first "married" ;
+                                                      rdf:rest [ rdf:type rdf:List ;
+                                                                 rdf:first "single" ;
+                                                                 rdf:rest [ rdf:type rdf:List ;
+                                                                            rdf:first "widowed" ;
+                                                                            rdf:rest rdf:nil
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ]
+                             ] .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#hasQuestionText
+:hasQuestionText rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Question ;
+                 rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Answer
+:Answer rdf:type owl:Class .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#AnswerChoice
+:AnswerChoice rdf:type owl:Class ;
+              rdfs:comment "A choice given for a specific survey question."@en .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#AnswerChoiceDistribution
+:AnswerChoiceDistribution rdf:type owl:Class .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#ChatTemplate
+:ChatTemplate rdf:type owl:Class ;
+              rdfs:comment "A template of an LLM's prompt consisting of information and syntax related to system, assistant, and roles."@en .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Persona
+:Persona rdf:type owl:Class ;
+         rdfs:comment "A persona created to query LLMs relating to survey questions."@en .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Prompt
+:Prompt rdf:type owl:Class ;
+        rdfs:comment "An LLM prompt. In this context a prompt for a persona given a specific survey question."@en .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Question
+:Question rdf:type owl:Class ;
+          rdfs:comment "A survey question with mutiple choices."@en .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Survey
+:Survey rdf:type owl:Class ;
+        rdfs:comment "A survey consiting of numerous questions which is used to survey a collection of persons (surveyees)"@en .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Surveyee
+:Surveyee rdf:type owl:Class ;
+          rdfs:comment "A real person who is surveyed."@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#AnswerChoice_Kabul_Ederim
+:AnswerChoice_Kabul_Ederim rdf:type owl:NamedIndividual ;
+                           :hasAnswerChoiceText "kabul ederim" .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#AnswerChoice_Kabul_Etmem
+:AnswerChoice_Kabul_Etmem rdf:type owl:NamedIndividual ;
+                          :hasAnswerChoiceText "kabul etmem" .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#AnswerChoice_Kesinlikle_Kabul_Ederim
+:AnswerChoice_Kesinlikle_Kabul_Ederim rdf:type owl:NamedIndividual ;
+                                      :hasAnswerChoiceText "kesinlikle kabul ederim" .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#AnswerChoice_Kesinlikle_Kabul_Etmem
+:AnswerChoice_Kesinlikle_Kabul_Etmem rdf:type owl:NamedIndividual .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Answer_Fikri_Yok
+:Answer_Fikri_Yok rdf:type owl:NamedIndividual ;
+                  rdfs:comment "An answer that indicates that the subject has no idea about the anwer of the question," .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Answer_None
+:Answer_None rdf:type owl:NamedIndividual ;
+             rdfs:comment "An answer that indicated that no answer is given to a question." .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Hasan
+:Hasan rdf:type owl:NamedIndividual ,
+                :Persona ;
+       :hasGender "male" .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Question1
+:Question1 rdf:type owl:NamedIndividual ;
+           :hasAnswerChoice :AnswerChoice_Kabul_Ederim ,
+                            :AnswerChoice_Kabul_Etmem ,
+                            :AnswerChoice_Kesinlikle_Kabul_Ederim ,
+                            :AnswerChoice_Kesinlikle_Kabul_Etmem ,
+                            :Answer_Fikri_Yok ,
+                            :Answer_None ;
+           :hasAnswerLabelType "alphabetic" ;
+           :hasQuestionText "Hayatta en önemli amaçlarımdan biri, anne ve babamın benimle gurur duymasıdır." .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#Survey1
+:Survey1 rdf:type owl:NamedIndividual ;
+         :hasQuestion :Question1 .
+
+
+###  http://ailab.cmpe.bogazici.edu.tr/ontologies/2024/Survey#SurveyTaker1
+:SurveyTaker1 rdf:type owl:NamedIndividual ,
+                       :Surveyee ;
+              :hasGender "female" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :AnswerChoice_Kabul_Ederim
+                        :AnswerChoice_Kabul_Etmem
+                        :AnswerChoice_Kesinlikle_Kabul_Ederim
+                        :AnswerChoice_Kesinlikle_Kabul_Etmem
+                        :Answer_Fikri_Yok
+                        :Answer_None
+                        :Hasan
+                        :Question1
+                        :SurveyTaker1
+                      )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
