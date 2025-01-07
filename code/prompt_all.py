@@ -3,13 +3,11 @@ import numpy as np
 import ast
 import re
 import unicodedata
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the processed persona data and survey data
-persona_df = pd.read_csv('results/persona_counts_with_prompts_tr.csv', dtype={'Count': int})
-survey_data = pd.read_csv('data/F00013167-WVS_Wave_7_Turkey_Csv_v5.0.csv', sep=';')
-survey_mapping = pd.read_csv('results/survey_question_mapping.csv')  
+persona_df = pd.read_csv('../results/persona_counts_with_prompts_tr.csv', dtype={'Count': int})
+survey_data = pd.read_csv('../data/F00013167-WVS_Wave_7_Turkey_Csv_v5.0.csv', sep=';')
+survey_mapping = pd.read_csv('../results/survey_question_mapping.csv')  
 
 def normalize_text(text):
     replacements = {
@@ -334,6 +332,7 @@ def process_all_prompts_and_questions(persona_df):
         # Match personas based on the extracted features
         matching_personas = match_personas(features)
         matching_count = len(matching_personas)
+        different_codes = ["Q94", "Q95", "Q96", "Q97", "Q98", "Q99", "Q100", "Q101", "Q102", "Q103", "Q104", "Q105", "Q119", "Q122", "Q123", "Q124", "Q125", "Q126", "Q127", "Q128", "Q129"]
 
         for q_id, q_text, response_options in zip(question_ids, question_texts, response_options_list):
             # Calculate the survey response distribution for the given question
@@ -343,18 +342,35 @@ def process_all_prompts_and_questions(persona_df):
                 # Map response codes to response options
                 response_percentages = {}
                 for code, percentage in response_distribution.items():
-                    try:
+                    if (code < 0 or code > len(response_options)):
+                        option_text = f"Option {code}"
+                    else:
+                        if q_id in different_codes:
+                            option_text = response_options[int(code)]
+                        else:
+                            option_text = response_options[int(code)-1]
+                    response_percentages[option_text] = percentage
+
+                    """try:
                         option_text = response_options[int(code)-1]
                     except (IndexError, ValueError):
                         option_text = f"Option {code}"
-                    response_percentages[option_text] = percentage
+                    response_percentages[option_text] = percentage"""
 
                 # Determine the most popular answer
                 most_popular_code = response_distribution.idxmax()
-                try:
+                if (most_popular_code < 0 or most_popular_code > len(response_options)):
+                        most_popular_answer = f"Option {most_popular_code}"
+                else:
+                    if q_id in different_codes:
+                        most_popular_answer = response_options[int(most_popular_code)]
+                    else:
+                        most_popular_answer = response_options[int(most_popular_code)-1]
+                
+                """try:
                     most_popular_answer = response_options[int(most_popular_code)-1]
                 except (IndexError, ValueError):
-                    most_popular_answer = f"Option {most_popular_code}"
+                    most_popular_answer = f"Option {most_popular_code}" """
 
                 results.append({
                     'Prompt': prompt,
@@ -386,4 +402,4 @@ results_df = process_all_prompts_and_questions(persona_df)
 #print(results_df[['Prompt', 'Count from CSV', 'Matching Personas Count', 'Question ID', 'Most Popular Answer']])
 
 # Save the results to a CSV file (optional)
-results_df.to_csv('results/persona_survey_results_with_counts.csv', index=False)
+results_df.to_csv('../results/persona_survey_results_with_counts.csv', index=False)
