@@ -1,0 +1,26 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Large language models (LLMs) have established an impressive ability to generate natural-sounding text and to analyze various social phenomena.
+Nevertheless, as these models become increasingly integrated into global applications, questions arise regarding their capability to represent diverse cultural perspectives and nuances. 
+While much of the existing LLM research focuses on Western contexts, there is a broad knowledge gap in understanding how these models engage with socio-political issues in non-Western settings such as Turkey, which presents a unique cultural and political landscape.
+
+This study investigates the degree to which large language models align with Turkish cultural values and demographic diversity. 
+Through systematic evaluation using value-based survey questions from the World Values Survey (WVS), we evaluate LLMs' ability in generating responses that accurately reflect the diverse perspectives found within Turkish society.
+Our approach employs demographic-specific personas derived from real Turkish population data in order to facilitate a fine-grained examination of factors such as gender, age, education level, and other cultural or demographic differences influence on model predictions. 
+Thus, we test LLM models' understanding of diverse Turkish political opinions using personas to determine how far these world models can comprehend cultural groups beyond their data sources.
+
+Our methodology combines statistical analysis with demographic representation.
+We utilize the World Values Survey (WVS) Wave 7 dataset collected in Turkey (2018) to extract survey questions containing a wide variety of categories that measure the people's thoughts on political, ideological, economic, cultural and many other issues. 
+Also, by mining the anonymous respondents' data, we construct personas based on actual demographic distributions while maintaining statistical validity which helps us to get representative sampling across Turkish society. 
+After combining survey questions and personas obtained, we create value-centric Turkish prompts specific to various LLMs to ensure the prompted model understands the desired task as much as possible. 
+Then, we collect responses for every prompt that are presented to LLM models and record them to analyze. 
+We employ some metrics to measure how closely model predictions match real survey responses, compare answers acquired for made-up personas and their corresponding real person statistics, providing a quantitative assessment of cultural alignment. 
+This approach allows us to identify specific areas where models struggle to accurately represent certain demographic groups or regional perspectives.
+
+We make the following main contributions:
+\begin{itemize}
+    \item A detailed analysis of diverse LLM performances across various demographic features in the Turkish context, revealing how identities and situations of individuals (for example; education level and geographical origin) significantly affect model accuracy.
+    \item Revealing systematic stereotypical biases, particularly in model responses related to persona characters.
+    \item A demonstration of model robustness across different prompt formats, shows that observed biases stem from deeper representational issues rather than prompt-level superficial differences.
+\end{itemize}
